@@ -19,11 +19,11 @@ result = nil
 
 if operation == '1'
 	result = num1.to_i + num2.to_i
-elsif condition == '2'
+elsif operation == '2'
 	result = num1.to_i - num2.to_i
-elsif condition == '3'
+elsif operation == '3'
 	result = num1.to_i * num2.to_i
-elsif condition == '4'
+elsif operation == '4'
 	result = num1.to_f / num2.to_f
 		
 end
